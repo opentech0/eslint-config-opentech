@@ -1,7 +1,7 @@
 # Installation
 
 ```bash
-yarn add @antipodes-medical/eslint-config-antipodes -D
+yarn add @opentech0/eslint-config-opentech -D
 ```
 
 # Usage
@@ -9,7 +9,7 @@ yarn add @antipodes-medical/eslint-config-antipodes -D
 `.eslintrc.json`
 ```json
 {
-  "extends": "@antipodes-medical/eslint-config-antipodes"
+  "extends": "@opentech0/eslint-config-opentech"
 }
 ```
 
@@ -31,7 +31,7 @@ For example, to turn off the `no-console` rule:
 
 ```json
 {
-  "extends": "@antipodes-medical/eslint-config-antipodes",
+  "extends": "@opentech0/eslint-config-opentech",
   "rules": {
     "no-console": "off"
   }
